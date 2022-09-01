@@ -88,6 +88,11 @@ Check out the code on github, [agrisom/vue-npm-library-example](https://github.c
 # Changelog
 All notable changes to this project will be documented in this file.
 
+## [0.0.3] - 2022-09-01
+- Fix README style
+
+View github [changelog](https://github.com/agrisom/vue-npm-library-example/compare/V0.0.2...V0.0.3)
+
 ## [0.0.2] - 2022-09-01
 - Completes README.md
 
