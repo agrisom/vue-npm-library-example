@@ -1,6 +1,6 @@
 
-<div style="text-align: center">
-    <span style="font-size: 5rem; font-style: italic; font-weight: bold; color: coral; text-shadow: 1px 1px 3px #8f2400;">vue-npm-library-example</span>
+<div align="center">
+    <h1>vue-npm-library-example</h1>
     <p>This library is an exemple of how to create and build a modern web component library using <b>Vue3 + Typescript</b>. The build is ready to create all necessary files to deploy on npm and use components with types helpers.</p>
     <p>
         <a href="https://www.npmjs.com/package/vue-npm-library-example"><img src="https://img.shields.io/npm/dt/vue-npm-library-example.svg" alt="Total Downloads"></a>
