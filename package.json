@@ -1,0 +1,56 @@
+{
+  "name": "vue-npm-library-example",
+  "version": "0.0.1",
+  "description": "Vue Component Library",
+  "author": {
+    "name": "Albert Griso Mendez",
+    "email": "albert.griso.mendez@gmail.com"
+  },
+  "license": "Apache-2.0",
+  "homepage": "https://www.npmjs.com/package/vue-npm-library-example",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agrisom/vue-npm-library-example"
+  },
+  "keywords": [
+    "vue",
+    "vue components",
+    "vue framework",
+    "ui framework",
+    "ui library",
+    "components",
+    "component framework",
+    "component library"
+  ],
+  "main": "./dist/vue-npm-library-example.cjs.js",
+  "module": "./dist/vue-npm-library-example.es.js",
+  "files": [
+    "dist/",
+    "src/"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/vue-npm-library-example.cjs.js",
+      "require": "./dist/vue-npm-library-example.es.js"
+    }
+  },
+  "browser": {
+    ".": "./dist/vue-npm-library-example.es.js"
+  },
+  "types": "./dist/ViewerPlugin.d.ts",
+  "scripts": {
+    "build": "vite build && vue-tsc --emitDeclarationOnly",
+    "test": "vue-tsc --noEmit"
+  },
+  "dependencies": {
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.14",
+    "@vitejs/plugin-vue": "^2.3.4",
+    "rollup-plugin-typescript2": "^0.33.0",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.15",
+    "vue-tsc": "^0.40.5"
+  }
+}
