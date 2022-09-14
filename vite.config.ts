@@ -8,7 +8,7 @@ export default defineConfig({
   plugins: [vue(),
     typescript2({
       check: false,
-      include: ["src/components/*.vue"],
+      include: ["src/components/**/*.vue"],
       tsconfigOverride: {
         compilerOptions: {
           outDir: "dist",

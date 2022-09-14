@@ -1,15 +1,12 @@
 
-<div align="center">
-    <h1>vue-npm-library-example</h1>
-    <p>This library is an exemple of how to create and build a modern web component library using <b>Vue3 + Typescript</b>. The build is ready to create all necessary files to deploy on npm and use components with types helpers.</p>
-    <p>
-        <a href="https://www.npmjs.com/package/vue-npm-library-example"><img src="https://img.shields.io/npm/dt/vue-npm-library-example.svg" alt="Total Downloads"></a>
-        <a href="https://github.com/agrisom/vue-npm-library-example/tags"><img src="https://img.shields.io/npm/v/vue-npm-library-example.svg" alt="Latest Release"></a>
-        <a href="https://github.com/agrisom/vue-npm-library-example/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/vue-npm-library-example.svg" alt="License"></a>
-    </p>
-</div>
+# vue-npm-library-example
 
-#
+This library is an exemple of how to create and build a modern web component library using <b>Vue3 + Typescript</b>. The build is ready to create all necessary files to deploy on npm and use components with types helpers.
+
+[![Total Downloads](https://img.shields.io/npm/dt/vue-npm-library-example.svg)](https://www.npmjs.com/package/vue-npm-library-example)
+[![Latest Release](https://img.shields.io/npm/v/vue-npm-library-example.svg)](https://github.com/agrisom/vue-npm-library-example/tags)
+[![License](https://img.shields.io/npm/l/vue-npm-library-example.svg)](https://github.com/agrisom/vue-components-docs/blob/main/LICENSE)
+
 # How it works
 
 - [x] Build tool [Vite](https://vitejs.dev/)
@@ -20,7 +17,7 @@
 - [x] Publish repository [npm](https://www.npmjs.com/package/vue-npm-library-example)
 
 # Quick start
-Yow need [Vue.js](https://vuejs.org) version 3.2+
+You need [Vue.js](https://vuejs.org) version 3.2+
 
 ## 1. Install via npm
 ```
@@ -64,7 +61,7 @@ You can import the library depending on the project needs. Import all components
     ```
 
 
-## 2. Use components
+## 3. Use components
 
 Implement each component normally on the template section **\*.vue**
     
@@ -78,15 +75,23 @@ Implement each component normally on the template section **\*.vue**
 
 > Typescript provides helpers to implement component props and validates incorrect or undefined values.
 
-![TS Helpers](src/assets/TS-helpers.png "Title")
+![TS Helpers](src/assets/TS-helpers.png "Type options")
 
-![TS Helpers](src/assets/TS-error.png "Title")
+![TS Helpers](src/assets/TS-error.png "Errors")
 
 # Repository
 Check out the code on github, [agrisom/vue-npm-library-example](https://github.com/agrisom/vue-npm-library-example).
 
+# Collaborators
+[![agrisom](https://s.gravatar.com/avatar/fca9ce1022597e46e338155fbee56a4d?s=80 "agrisom")](https://github.com/agrisom)
+
 # Changelog
 All notable changes to this project will be documented in this file.
+
+## [0.0.4] - 2022-09-14
+- Added new component UITable
+
+View github [changelog](https://github.com/agrisom/vue-npm-library-example/compare/V0.0.3...V0.0.4)
 
 ## [0.0.3] - 2022-09-01
 - Fix README style

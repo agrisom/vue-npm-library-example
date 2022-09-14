@@ -1,0 +1,1 @@
+export type AnyEntityWithId<T> = { [Item in keyof T]?: T[Item] } & { id: string };
